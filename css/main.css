@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  background-color: hsl(233deg, 47%, 7%);
+  color: white;
+  margin: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.card-content {
+  background-color: hsl(244deg, 38%, 16%);
+  border-radius: 7px 0 0 7px;
+}
+.card-content .heading {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 2em 0 0 2em;
+  width: 12em;
+}
+.card-content .heading p {
+  margin-bottom: 0;
+}
+.card-content .main-text {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 14px;
+  margin-top: 2em;
+  margin-left: 5em;
+  width: 25em;
+  line-height: 1.5;
+}
+.card-content ul {
+  margin-top: 3em;
+  margin-left: 1.5em;
+}
+.card-content ul li {
+  float: left;
+  margin-left: 3.5em;
+}
+.card-content ul .stats {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.card-content ul .stats-heading {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.card-content .heading span {
+  color: hsl(277deg, 64%, 61%);
+}
+
+.card-image {
+  border-radius: 0 7px 7px 0;
+  background-color: hsl(280deg, 90%, 27%);
+}
+.card-image img {
+  width: 100%;
+  margin-bottom: -3.34px;
+  opacity: 0.45;
+  border-radius: 0 7px 7px 0;
+}
+
+@media (max-width: 760px) {
+  .card-container {
+    grid-template-columns: 90%;
+    min-width: 250px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2em;
+  }
+
+  .card-content {
+    text-align: center;
+    border-radius: 0 0 7px 7px;
+  }
+  .card-content .heading {
+    margin: auto;
+    margin-top: 1.5em;
+    width: 10em;
+  }
+  .card-content .main-text {
+    color: hsla(0deg, 0%, 100%, 0.75);
+    margin: auto;
+    margin-top: 1.5em;
+    width: 17em;
+    font-size: 20px;
+  }
+  .card-content ul {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+  }
+  .card-content ul li {
+    float: none;
+    margin: auto;
+    margin-bottom: 2.5em;
+  }
+  .card-content ul .stats {
+    font-size: 32px;
+    margin-bottom: 0.3em;
+  }
+  .card-content ul .stats-heading {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+
+  .card-image {
+    grid-row: 1;
+    border-radius: 7px 7px 0 0;
+  }
+  .card-image img {
+    border-radius: 7px 7px 0 0;
+  }
+}/*# sourceMappingURL=main.css.map */
